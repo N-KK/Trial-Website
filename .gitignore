@@ -16,3 +16,6 @@ requirements.txt  # Ignore this specific file
 
 # Ignore files ending with .env (common for environment variables)
 *.env
+
+#version control
+about.html
