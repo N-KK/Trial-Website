@@ -1,0 +1,18 @@
+# Ignore all files with the .log extension
+*.log
+
+# Ignore the entire build directory
+build/
+
+# Ignore any file or directory starting with "temp"
+temp*
+
+# Ignore specific files by name
+requirements.txt  # Ignore this specific file
+
+# Ignore VS Code settings and extensions folders
+.vscode/
+**/.vscode/*  # This pattern ignores nested VS Code folders within the project
+
+# Ignore files ending with .env (common for environment variables)
+*.env
